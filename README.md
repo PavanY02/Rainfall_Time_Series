@@ -13,7 +13,7 @@ This project focuses on predicting rainfall for various locations in Australia u
   - Test data: 2015 to 2017 for all locations.
 
 ## Files
-- **WeatherAus.csv** : Contains Rain data for 48 different locations in Austrilla from 2008 to 2017
+- **WeatherAus.csv** : Contains Rain data for 49 different locations in Austrilla from 2008 to 2017
 - **Preprocessing.ipynb**: Contains all the code  for preprocessing (`WeatherAus.csv`) .
 - **rain_data.csv**: Preprocessed dataset used for training the model.
 - **Model_Training.ipynb**: Python script containing Detailed timeseries Data Analysis and the XGBoost model training process.
@@ -58,7 +58,7 @@ This project focuses on predicting rainfall for various locations in Australia u
 
 ## Dataset
 
-The dataset contains weather observations from 41 different locations in Australia, with features like temperature, humidity, wind speed, and pressure. The target variable is `RainTomorrow`, indicating whether it rained the next day.
+The dataset contains weather observations from 49 different locations in Australia, with features like temperature, humidity, wind speed, and pressure. The target variable is `RainTomorrow`, indicating whether it rained the next day.
 
 ## Future Work
 
