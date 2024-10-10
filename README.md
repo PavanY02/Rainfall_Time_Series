@@ -1,6 +1,3 @@
-I apologize for that oversight! Here's the entire README, including the model architecture part, strictly in Markdown format:
-
-```md
 # Rainfall Prediction using Time Series Forecasting
 
 ## Overview
@@ -27,7 +24,7 @@ This project focuses on predicting rainfall for various locations in Australia u
 1. Clone the repository:
    ```bash
    git clone <repository-url>
-   ```
+
 2. Install the required dependencies:
    ```bash
    pip install -r requirements.txt
