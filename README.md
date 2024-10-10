@@ -13,10 +13,10 @@ This project focuses on predicting rainfall for various locations in Australia u
   - Test data: 2015 to 2017 for all locations.
 
 ## Files
-
-- **Timeseries.zip**: Contains all the preprocessed data (`rain_data`) and the model training code.
+- **WeatherAus.csv** : Contains Rain data for 48 different locations in Austrilla from 2008 to 2017
+- **Preprocessing.ipynb**: Contains all the code  for preprocessing (`WeatherAus.csv`) .
 - **rain_data.csv**: Preprocessed dataset used for training the model.
-- **model.py**: Python script containing the XGBoost model training process.
+- **Model_Training.ipynb**: Python script containing Detailed timeseries Data Analysis and the XGBoost model training process.
 - **results.csv**: Prediction results from the model on the test dataset.
 
 ## How to Run
@@ -37,7 +37,7 @@ This project focuses on predicting rainfall for various locations in Australia u
 ## Model Architecture
 
 - The model is built using the XGBoost algorithm:
-  - XGBoost handles the structured data efficiently and is capable of capturing complex relationships between features.
+  - XGBoost handles the Time series data efficiently with the help of lag features and is capable of capturing complex relationships between features.
   - The model was tuned with hyperparameters to improve prediction accuracy.
 
 ## Results
@@ -65,9 +65,3 @@ The dataset contains weather observations from 41 different locations in Austral
 - Improving model performance through further hyperparameter tuning and exploring feature importance from the XGBoost model.
 - Exploring additional models or ensemble techniques to compare with XGBoost.
 
-## License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
-```
-
-Everything is in proper Markdown format now! You can paste this directly into your `README.md` file.
